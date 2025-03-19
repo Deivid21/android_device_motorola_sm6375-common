@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03cb8a4d_98f8fee3",
+        "filename": "sepolicy/vendor/genfs_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2025-03-19T17:54:21Z",
+      "side": 1,
+      "message": "This line needs to be removed because it is now included in https://review.lineageos.org/c/LineageOS/android_device_qcom_sepolicy_vndr/+/423613",
+      "range": {
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 78,
+        "endChar": 169
+      },
+      "revId": "1b9d6f67dce424e823f67a6add866507eaa17e8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
