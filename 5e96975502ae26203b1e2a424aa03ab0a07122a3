@@ -16,6 +16,23 @@
       "message": "Works on Miami",
       "revId": "5e96975502ae26203b1e2a424aa03ab0a07122a3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1d977df_ac3eb69a",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-05-02T18:06:36Z",
+      "side": 1,
+      "message": "not my device but, header update?",
+      "revId": "5e96975502ae26203b1e2a424aa03ab0a07122a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
