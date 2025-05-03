@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4128b7cf_3472d1dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-05-03T01:41:39Z",
+      "side": 1,
+      "message": "We should try to just fix mixer paths/kernel, this works for now but seems to cause the FM app to be much slower, you get ANR when you first open the app.",
+      "revId": "3ed4b341049cb2e4ecaebf500d000ec5a794ecd6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
