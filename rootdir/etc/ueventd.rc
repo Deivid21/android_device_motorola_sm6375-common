@@ -506,6 +506,7 @@ firmware_directories /vendor/firmware_mnt/image/
 
 # fps device node
 /dev/fpsensor                                           0660   system     system
+/dev/focaltech_fp                                       0660   system     system
 /dev/goodix_fp                                          0664   system     system
 /dev/esfp0                                              0664   system     system
 /dev/silead_fp                                          0664   system     system
