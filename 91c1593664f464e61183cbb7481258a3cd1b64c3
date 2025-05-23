@@ -51,6 +51,24 @@
       "message": "Tested a clean-flashed ROM without this patch, fingerprint storage and auth work but logcat has these entries:\n\n$ grep \"\\/vendor\\/focaltech\" logcat\n05-23 15:51:55.606  1758  1758 I focaltech:config: loading configurations from \u0027/data/vendor/focaltech/ff_config.json\u0027.\n05-23 15:51:55.607  1758  1758 E focaltech:file: error at ff_file_open[file.c:39]: fopen(\u0027/data/vendor/focaltech/ff_config.json\u0027, ..) \u003d \u0027No such file or directory\u0027.\n05-23 15:51:55.607  1758  1758 W focaltech:hal:stats: fopen(\u0027/data/vendor/focaltech/ff_statistics.dat\u0027, ..) \u003d \u0027No such file or directory\u0027.\n05-23 15:51:55.608  1758  1758 E focaltech:hal:helper: error at ensure_storage_path[helper.c:84]: mkdir(\u0027/data/vendor/focaltech\u0027, ..) \u003d \u0027Permission denied\u0027.",
       "revId": "91c1593664f464e61183cbb7481258a3cd1b64c3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50cf70cf_89bed04c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34240
+      },
+      "writtenOn": "2025-05-23T14:18:34Z",
+      "side": 1,
+      "message": "Hmm. I wasn\u0027t able to test this myself since I don\u0027t have focaltech sensor. But I guess as Mike suggested, restorecon won\u0027t be necessary. I\u0027ll test this within a few hours and let\u0027s see what we can do.",
+      "parentUuid": "6f56ac33_9fc13188",
+      "revId": "91c1593664f464e61183cbb7481258a3cd1b64c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
