@@ -69,6 +69,24 @@
       "parentUuid": "6f56ac33_9fc13188",
       "revId": "91c1593664f464e61183cbb7481258a3cd1b64c3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8a92775_25584804",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-05-23T14:55:37Z",
+      "side": 1,
+      "message": "@sevenrock is there any selinux denial?",
+      "parentUuid": "50cf70cf_89bed04c",
+      "revId": "91c1593664f464e61183cbb7481258a3cd1b64c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
