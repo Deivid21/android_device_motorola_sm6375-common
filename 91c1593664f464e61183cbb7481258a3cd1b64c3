@@ -87,6 +87,24 @@
       "parentUuid": "50cf70cf_89bed04c",
       "revId": "91c1593664f464e61183cbb7481258a3cd1b64c3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9bc45443_0637d508",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2025-05-23T15:01:34Z",
+      "side": 1,
+      "message": "No, there is no related selinux denial.\n\nThe path is stored in fingerprint.focaltech.default.so:\n$ strings vendor/lib64/hw/fingerprint.focaltech.default.so | grep \"\\/data\\/vendor\\/focaltech\"\n/data/vendor/focaltech\n/data/vendor/focaltech/dump\n\nand seems to be used only for statistics according to logcat:\n\n05-23 15:59:48.399  1758  6590 E focaltech:hal:helper: error at ensure_storage_path[helper.c:84]: mkdir(\u0027/data/vendor/focaltech\u0027, ..) \u003d \u0027Permission denied\u0027.\n05-23 15:59:48.399  1758  6590 E focaltech:hal:stats: error at save_statistics_data[statistics.c:46]: \u0027Internal error\u0027.\n05-23 15:59:48.399  1758  6590 E focaltech:hal:base: error at statistics_updating_procedure[hal_base.cpp:463]: \u0027Internal error\u0027.\n\nMaybe the binary can be patched to point to /tmp?",
+      "parentUuid": "50cf70cf_89bed04c",
+      "revId": "91c1593664f464e61183cbb7481258a3cd1b64c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
