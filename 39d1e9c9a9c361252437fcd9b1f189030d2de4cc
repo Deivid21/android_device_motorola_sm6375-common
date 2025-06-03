@@ -50,6 +50,41 @@
       "message": "quick\u0027n\u0027dirty patch: https://github.com/sevenrock/android_device_motorola_sm6375-common/commit/e35690b29ec1184b7fffa693cc9af80baef13967",
       "revId": "39d1e9c9a9c361252437fcd9b1f189030d2de4cc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb9d156b_19e5bb77",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-06-03T10:48:27Z",
+      "side": 1,
+      "message": "`allow hal_fingerprint_default fingerprint_vendor_data_file:file create_file_perms;` is already allowed in system/sepolicy. Please confirm that latest patchset and https://review.lineageos.org/c/LineageOS/android_hardware_motorola/+/432331 work fine",
+      "parentUuid": "b540b5de_1cd77399",
+      "revId": "39d1e9c9a9c361252437fcd9b1f189030d2de4cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea9ba49d_6eb9d752",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-06-03T10:48:27Z",
+      "side": 1,
+      "message": "Comment removed by: Michael Bestas; Reason: Oops",
+      "revId": "39d1e9c9a9c361252437fcd9b1f189030d2de4cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
