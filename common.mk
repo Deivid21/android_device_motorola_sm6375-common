@@ -206,6 +206,9 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set_bool,stagefright,target_disable_thumbnail_block_model,true)
 
+# MindTheGapps
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+
 # Moto hardware
 PRODUCT_PACKAGES += \
     MotoActions \
